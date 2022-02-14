@@ -17,4 +17,4 @@ if currency.upper() == 'USD':
 else:
     amt2 = amt1 * 1.16
     print(amt1, f'EUR is {amt2: .2f} USD')
-```python
+```
