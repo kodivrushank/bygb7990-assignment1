@@ -1,0 +1,10 @@
+print('Welcome to 2 -currency calculator!')
+amt1 = float(input('please enter the From amount:'))
+currency = input('please enter the From currency? enter "USD" or "EUR":')
+if currency.upper() == 'USD':
+    amt2 = amt1 * 0.88
+    print(amt1, f'USD is {amt2: .2f} EUR')
+else:
+    amt2 = amt1 * 1.16
+    print(amt1, f'EUR is {amt2: .2f} USD')
+input('\nprompt:')
